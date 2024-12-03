@@ -134,7 +134,6 @@
 	},
 	{
 		"name": "Longhouse",
-		"replaces": "Workshop",
 		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
@@ -196,7 +195,6 @@
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
-		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
@@ -223,7 +221,6 @@
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
 	{
@@ -292,14 +289,12 @@
 		"name": "Military Academy",
 		"hurryCostModifier": 0,
 		"maintenance": 1,
-		"requiredBuilding": "Armory",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
 		"name": "Hospital",
 		"food": 5,
-		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology"
