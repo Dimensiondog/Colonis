@@ -26,33 +26,29 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Jaguar",
 		"unitType": "Sword",
-		"uniqueTo": "Aztecs",
-		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["[Jaguar] ability","Woodsman"],
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "Musketman",
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Brute",
 		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "Musketman",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -80,7 +76,7 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "Musketman",
 		"attackSound": "arrow"
 	},
 	{
@@ -100,7 +96,7 @@
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
@@ -114,7 +110,7 @@
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
@@ -127,7 +123,7 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Musketman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -138,7 +134,7 @@
 		"strength": 14,
 		"cost": 100,
 		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
@@ -153,7 +149,7 @@
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": ["[Mohawk Warrior] ability"],
@@ -368,7 +364,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability","Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -409,7 +405,6 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
 	{
@@ -422,7 +417,6 @@
 		"cost": 200,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
 	},
@@ -435,7 +429,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -461,7 +455,6 @@
 		"range": 3,
 		"cost": 320,
 		"requiredTech": "Dynamite",
-		"upgradesTo": "Rocket Artillery",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -478,7 +471,6 @@
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -505,7 +497,6 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -520,7 +511,6 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Bomber",
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
@@ -531,7 +521,6 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -568,7 +557,6 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 	},
@@ -580,7 +568,6 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
@@ -607,7 +594,6 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
