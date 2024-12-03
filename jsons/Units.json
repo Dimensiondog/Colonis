@@ -517,7 +517,6 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
