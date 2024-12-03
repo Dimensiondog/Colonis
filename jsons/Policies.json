@@ -211,7 +211,7 @@
     },
     {
         "name": "Piety",
-        "era": "Classical era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -276,7 +276,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -344,7 +344,7 @@
     },
     {
         "name": "Commerce",
-        "era": "Medieval era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -415,7 +415,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "Renaissance era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -482,7 +482,7 @@
     },
     {
         "name": "Freedom",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 10,
@@ -544,7 +544,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -613,7 +613,7 @@
     },
     {
         "name": "Order",
-        "era": "Industrial era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 5,
