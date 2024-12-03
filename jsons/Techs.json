@@ -109,7 +109,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Classical era",
+		"era": "Ancient era",
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -146,7 +146,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
+		"era": "Ancient era",
 		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -188,7 +188,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Medieval era",
+		"era": "Ancient era",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -224,7 +224,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Medieval era",
+		"era": "Ancient era",
 		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
@@ -275,7 +275,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"techCost": 780,
 		"buildingCost": 200,
 		"wonderCost": 500,
@@ -319,7 +319,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"techCost": 1150,
 		"buildingCost": 250,
 		"wonderCost": 625,
@@ -361,7 +361,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Industrial era",
+		"era": "Ancient era",
 		"techCost": 1600,
 		"buildingCost": 300,
 		"wonderCost": 750,
@@ -411,7 +411,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Industrial era",
+		"era": "Ancient era",
 		"techCost": 2350,
 		"buildingCost": 360,
 		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
@@ -447,7 +447,7 @@
 	},
 	{
 		"columnNumber": 11,
-		"era": "Modern era",
+		"era": "Ancient era",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
@@ -490,7 +490,7 @@
 	},
 	{
 		"columnNumber": 12,
-		"era": "Modern era",
+		"era": "Ancient era",
 		"techCost": 4100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -525,7 +525,7 @@
 	},
 	{
 		"columnNumber": 13,
-		"era": "Atomic era",
+		"era": "Ancient era",
 		"techCost": 5100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -560,7 +560,7 @@
 	},
 	{
 		"columnNumber": 14,
-		"era": "Atomic era",
+		"era": "Ancient era",
 		"techCost": 6400,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -594,7 +594,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "Information era",
+		"era": "Ancient era",
 		"techCost": 7700,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -642,7 +642,7 @@
 
 	{
 		"columnNumber": 16,
-		"era": "Information era",
+		"era": "Ancient era",
 		"techCost": 8800,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -684,7 +684,7 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "Future era",
+		"era": "Ancient era",
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
