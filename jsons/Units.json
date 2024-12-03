@@ -60,16 +60,12 @@
 		"cost": 36,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
-		"replaces": "Archer",
-		"uniqueTo": "The Maya",
-		"upgradesTo": "Composite Bowman",
+		"upgradesTo": "Musketman",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Skirmisher",
 		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
