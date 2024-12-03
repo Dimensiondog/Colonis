@@ -27,7 +27,7 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
 		"uniques": ["[+2] to Fertility for Map Generation",
-            "Considered [Desirable] when determining start locations <on water maps>",
+            "Considered [Desirable] when determining start locations <on water maps>"]
 	},
 	{
 		"name": "Grassland",
