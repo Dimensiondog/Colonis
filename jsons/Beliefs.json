@@ -160,16 +160,6 @@
         "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
     },
     {
-        "name": "Mosques",
-        "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
-        "name": "Pagodas",
-        "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
         "name": "Peace Gardens",
         "type": "Follower",
         "uniques": ["[+2 Happiness] from every [Garden]"]
