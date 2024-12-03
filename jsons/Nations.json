@@ -13,7 +13,7 @@
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Nebuchadnezzar II",
 
 		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
@@ -77,7 +77,7 @@
 		"name": "China",
 		"leaderName": "Wu Zetian",
 		"adjective": ["Chinese"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Wu Zetian",
 
         "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
@@ -109,7 +109,7 @@
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Ramesses II",
 
         "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
@@ -170,7 +170,7 @@
 		"name": "France",
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Napoleon",
 
         "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
@@ -201,7 +201,7 @@
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Catherine",
 
 
@@ -232,7 +232,7 @@
 		"leaderName": "Augustus Caesar",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Augustus Caesar",
 
 
@@ -262,7 +262,7 @@
 		"leaderName": "Harun al-Rashid",
 		"adjective": ["Arabian"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Harun al-Rashid",
 
         "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
@@ -290,7 +290,7 @@
 		"name": "America",
 		"leaderName": "George Washington",
 		"adjective": ["American"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "George Washington",
 
         "startIntroPart1": "President Washington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
@@ -352,7 +352,7 @@
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Gandhi",
 
         "startIntroPart1": "Wise Mahatma Gandhi, great leader of India, we honor you! India is one of the oldest countries in the world with 10,000 years of history, built on spirit and religion, as three of the world's great religions - Hinduism, Buddhism and Jainism - appeared on this sacred land. Every aspect of India society reveres art, music and color, showing great wealth but also grinding poverty. For centuries, India was torn between local kingdoms fighting each other but also repelling invaders. In the 12th century AD, Muslim Turks tried to conquer India, then the Mongols took their place. In the early 17th century, India, still fragmented, was colonized by the English and their diplomacy and technological superiority. After two centuries of British dominion, Indian nationalism woke up, and you, Great Mahatma, have led a peaceful and victorious rebellion never seen anywhere in history!",
@@ -381,7 +381,7 @@
 		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Otto von Bismarck",
 
         "startIntroPart1": "All hail to Otto von Bismarck, first chancellor of Germany and its empire! During the ancient era, Germany was a land fragmented in several tribes but already showed great promise as the Roman Empire itself struggled to bend the Germans to its will. Germany, as one nation, was slowly built on the ruins of the Holy Roman Empire, and waited 1871 to be finally unified after the glorious victory on France and Napoleon III. The German people are creative, intelligent, industrious and proven to be talented warriors through history. Despite great catastrophes and failures in the first half of the 20th century, Germany can always rely on its people will and strength to be among the greatest and powerful nations in the world.",
@@ -446,7 +446,7 @@
 		"leaderName": "Sejong",
 		"adjective": ["Korean"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Sejong",
 
         "startIntroPart1": "Greetings to you, King Sejong the Great, heir of the Choson Dynasty! Prosperity and benevolence towards the common man are the principles of your reign, and made of you the most beloved Korean king. You always aimed to provide a fair and equal society for all your people, and also to favor knowledge and technological discoveries. Your wisdom and intelligence imbued all the Korean society, and the scholars of the Jade Hall developed Korea's first written language, Hangul, sharing further literature and science to the people after centuries of darkness.",
@@ -476,7 +476,7 @@
 		"leaderName": "Hiawatha",
 		"adjective": ["Iroquoise"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Hiawatha",
 
         "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
@@ -506,7 +506,7 @@
 		"name": "Persia",
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Darius I",
 
         "startIntroPart1": "Great King Darius of Persia, the heaven casts its light upon you! Persian people are strong and wise, as their leader. In old ages, the great Persian king Cyrus fought back the mighty Median empire and finally destroyed the Medes in 550 BC. Cunning diplomacy and military achievements helped then to conquer the wealthy Lydia and the powerful Babylon, Cyrus' son conquering the eternal Egypt some years later. At the height of its power, the Persian Empire reached the shores of Macedonia, at the very door of the upstart Greek city-states. Persia would have prospered for centuries if Alexander of Macedon hadn't brutally destroyed the great empire in one violent strike.",
@@ -540,7 +540,7 @@
 		"leaderName": "Kamehameha I",
 		"adjective": ["Polynesia"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Kamehameha I",
 
         "startIntroPart1": "Aloha to Kamehameha the Great, who the heavens allowed to unite your people! O great King, under your reign, the Big Island of Hawai'i became one in 1791 AD, and many other islands joined your vision of union in 1810. As the first King of Hawai'i, law and taxation systems were stabilized, and you promoted the Kanawai Mamalahoe, an edict to protect civilian people in times of war. Unification and sovereignty of all the islands continued thanks to your fair laws and deeds, even after you joined your ancestors in paradise in 1819.",
@@ -722,7 +722,7 @@
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Pachacuti",
 
         "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
@@ -756,7 +756,7 @@
 		"leaderName": "Harald Bluetooth",
 		"adjective": ["Danish"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Harald Bluetooth",
 
         "startIntroPart1": "Skal, Harald Bluetooth Gormsson, son of King Gorm of the Old and Thyra Dannebod! After crushing the armies of Norway, you achieved great construction projects all across the land of mighty Denmark. Numerous Ring Fortresses were built under your reign to protect the people from foreign invasions, but also from local quarrels. In 983 AD, you successfully repelled several waves of German settlers trying to colonize your land, and then always kept your kingdom free from any foreign pressure.",
@@ -817,7 +817,7 @@
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "William of Orange",
 
         "startIntroPart1": "Greetings to the wise and brave Prince William of Orange, who freed the Netherlands and gave strength to the Dutch people. In 1568, you led a rebellion against Spanish dominion, to gain freedom for your people, and therefore starting the Eighty Years' War. Your actions were all aimed to create one of Europe's first modern republics, the Seven United Provinces. The rebellion was the meaning of your very life and death, as it was also the cause of your assassination in 1584. But your death has given even more pride and courage to your people, to fight for liberty against any oppressors. Carved in history as the 'Father of the Fatherland', your name is a symbol of Dutch independence for eternity.",
@@ -938,7 +938,7 @@
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Theodora",
 
         "startIntroPart1": "Magnificent Empress Theodora, beloved of Byzantium and of Rome, your people salute you! With your beauty and intelligence, you rose up from actress and courtesan to the rank of the most powerful woman in the Roman Empire, as wife of Justinian I. In the late 520's AD, you helped your husband engage in spiritual and legal reforms, promugalting numerous laws to improve women's status and treatment in the empire. You also made of Constantinople the jewel of the Eastern Roman Empire with the restoration and construction of many aqueducts, bridges, and churches, its beauty culminating with the creation of the Hagia Sophia, one of the most splendid pieces of architecture in the world.",
@@ -1001,7 +1001,7 @@
 		"leaderName": "Haile Selassie",
 		"adjective": ["ethiopian"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Time",
 		"personality": "Haile Selassie",
 
         "startIntroPart1": "May God bless you, wise and righteous Emperor of Ethiopia, Haile Selassie. As one of Ethiopia's greatest rulers and a spiritual leader of the Rastafarian movement, your good influence on diplomacy and political cooperation are praised throughout the world. You created Ethiopia's first written constitution, and favorized democracy for years to come, your great wisdom making Ethiopia enter as a charter member in the United Nations. Always aiming to reform and modernize your nation, you changed Ethiopian destiny for the best.",
@@ -1034,7 +1034,7 @@
 		"leaderName": "Pacal",
 		"adjective": ["mayan"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Time",
 		"personality": "Pacal",
 
         "startIntroPart1": "Kneel before King Pacal the Great, son of the gods and protector of the Palenque domain! After your kingdom has been harassed for years by neighboring rivals, you struck back at the enemies of your people, defeating each of them and sacrificing their leaders as a retribution to the insults made to your ancestors. Your wisdom and hard will not only restored the glory of Palenque, but turned it into a magnificient city, as your people built the greatest monuments and architecture the world has ever known.",
