@@ -22,7 +22,7 @@
 		"gold": 3,
 		"culture": 3,
 		"cityStrength": 2,
-		"uniques": ["Indicates the capital city","Consumes [4] [number of cities]","Cost increases by [100] when built"]
+		"uniques": ["Indicates the capital city","Cost increases by [100] when built"]
 	},
 	// Column 1
 	{
