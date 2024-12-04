@@ -141,13 +141,31 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Engineering",
-				"row": 8,
-				"prerequisites": ["Construction"],
-				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+				"name": "Education",
+				"row": 2,
+				"prerequisites": ["Optics","Diplomacy"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
-
+			{
+				"name": "Urbanisation",
+				"row": 4,
+				"prerequisites": ["Guilds","Diplomacy"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "Metallurgy",
+				"row": 6,
+				"prerequisites": ["Guilds","Heavy Cavalry"],
+                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "Gunpowder",
+				"row": 8,
+				"prerequisites": ["Heavy Cavalry","Metal Casting"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			}
 		]
 	},
 	{
@@ -158,16 +176,11 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Theology",
-				"row": 2,
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
-			},
-			{
-				"name": "Civil Service",
-				"row": 5,
-				"prerequisites": ["Horseback Riding"],
-				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Construction"],
+				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 		]
 	},
@@ -178,13 +191,6 @@
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
-			{
-				"name": "Education",
-				"row": 3,
-				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'Education is the best provision for old age.' - Aristotle"
-			},
 			{
 				"name": "Machinery",
 				"row": 8,
@@ -209,32 +215,12 @@
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
-				"name": "Acoustics",
-				"row": 4,
-				"prerequisites": ["Education"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
-			},
-			{
 				"name": "Banking",
 				"row": 6,
 				"prerequisites": ["Education"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
-			{
-				"name": "Printing Press",
-				"row": 8,
-				"prerequisites": [],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
-			},
-			{
-				"name": "Gunpowder",
-				"row": 10,
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
-			}
 		]
 	},
 	{
@@ -251,24 +237,11 @@
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
-				"name": "Architecture",
-				"row": 4,
-				"prerequisites": ["Acoustics","Banking"],
-				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
-			},
-			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Banking","Printing Press"],
+				"prerequisites": ["Banking"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
-			},
-			{
-				"name": "Metallurgy",
-				"row": 9,
-				"prerequisites": ["Printing Press","Gunpowder"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
 			{
 				"name": "Chemistry",
@@ -289,14 +262,14 @@
 			{
 				"name": "Archaeology",
 				"row": 2,
-				"prerequisites": ["Navigation","Architecture"],
+				"prerequisites": ["Navigation"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
 				"name": "Scientific Theory",
 				"row": 4,
-				"prerequisites": ["Architecture","Economics"],
+				"prerequisites": ["Economics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
@@ -464,13 +437,6 @@
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
-				"name": "Radar",
-				"row": 6,
-				"prerequisites": ["Ballistics","Electronics"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
-			},
-			{
 				"name": "Combined Arms",
 				"row": 8,
 				"prerequisites": ["Ballistics","Combustion"],
@@ -494,13 +460,13 @@
 			{
 				"name": "Nuclear Fission",
 				"row": 4,
-				"prerequisites": ["Atomic Theory","Radar"],
+				"prerequisites": ["Atomic Theory"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
 				"name": "Rocketry",
 				"row": 6,
-				"prerequisites": ["Radar"],
+				"prerequisites": [],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
@@ -514,25 +480,8 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Telecommunications",
-				"row": 2,
-				"prerequisites": ["Ecology"],
-				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
-			},
-		]
-	},
-
-	{
-		"columnNumber": 16,
-		"era": "Ancient era",
-		"techCost": 8800,
-		"buildingCost": 750,
-		"wonderCost": 1250,
-		"techs": [
-			{
 				"name": "Globalization",
 				"row": 2,
-				"prerequisites": ["Telecommunications"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
