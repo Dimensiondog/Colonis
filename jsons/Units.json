@@ -116,7 +116,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Iron Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -491,7 +491,6 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"obsoleteTech": "Radar",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
@@ -505,7 +504,6 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
 	{
