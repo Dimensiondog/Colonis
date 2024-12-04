@@ -7,7 +7,7 @@
 //		"innerColor": [255,255,255]
 	},
 	{
-		"name": "New Saxland",
+		"name": "Saxland",
 		"leaderName": "Governor Arthur Phillip",
 		"adjective": ["Saxlander"],
 		"startBias": ["Coast"],
@@ -27,8 +27,9 @@
 		"outerColor": [109, 2, 0],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Pasturalists",
-		"uniques": ["Gain control over [Neutral] tiles in a [2]-tile radius<upon building a [Pasture] improvement>", "[+1 Food] from [Farm] tiles [in all cities]<with [1] to [6] neighboring [Pasture] tiles>"],
+		"uniqueName": "Pax Saxlandia",
+		"uniques": ["Can carry [1] extra [All] units"],
+		"uniqueText": "Can carry [1] extra [All] units, May build an additional Governors House for every 4 cities",
 		"cities": ["Armidale","Tamworth","Moree","Glenn Innes","Inverell"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
@@ -55,7 +56,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Control of the Iswerippi",
-		"uniques": ["[+1 Gold] from [Land] tiles [in all cities]<with [1] to [6] neighboring [Riverina] tiles>"],
+		"uniques": ["Resting point for Influence with City-States is increased by [30]","[-20]% Unhappiness from [Followers of the Majority Religion] [in all cities]"],
 		"cities": ["New Paris","Layfatte","Bossier","Shreveport","Baton Blue"],
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
@@ -87,9 +88,9 @@
 
     },
 	{
-		"name": "Seven Colonies",
-		"leaderName": "General Henry Smithington",
-		"adjective": ["American"],
+		"name": "Iberia",
+		"leaderName": "Maria Canstalza",
+		"adjective": ["Iberian"],
 		"preferredVictoryType": "Time",
 		"personality": "George Washington",
 
@@ -104,12 +105,12 @@
 		"hateHello": "Well?",
 		"tradeRequest": "Is the following trade of interest to you?",
 
-        "outerColor": [ 28,51,119],
-        "innerColor": [255,255,255],
+        "innerColor": [ 28,51,119],
+        "outerColor": [255,255,255],
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Liberty",
-		"uniques": ["Each city founded increases culture cost of policies [-120]% less than normal", "[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["Each city founded increases culture cost of policies [-120]% less than normal", "Gain control over [Neutral] tiles in a [2]-tile radius<upon building a [Feitora] improvement>"],
 		"cities": ["Richmond","Minneapolis","Pittsburgh","Oakland","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
