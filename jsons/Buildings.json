@@ -99,7 +99,7 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Diplomacy"
 	},
 	{
 		"name": "Market",
