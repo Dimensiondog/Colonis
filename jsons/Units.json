@@ -59,7 +59,6 @@
 		"rangedStrength": 7,
 		"cost": 36,
 		"requiredTech": "Agriculture",
-		"obsoleteTech": "Construction",
 		"upgradesTo": "Musketman",
 		"attackSound": "arrow"
 	},
@@ -70,7 +69,6 @@
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Musketman",
 		"attackSound": "arrow"
@@ -91,7 +89,7 @@
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
@@ -105,7 +103,7 @@
 		"strength": 9,
 		"rangedStrength": 11,
 		"cost": 70,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
