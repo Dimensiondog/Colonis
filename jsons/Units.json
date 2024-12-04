@@ -115,7 +115,7 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Musketman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
