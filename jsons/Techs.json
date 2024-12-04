@@ -218,14 +218,14 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Chivalry", "Education"],
+				"prerequisites": ["Education"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
 				"name": "Printing Press",
 				"row": 8,
-				"prerequisites": ["Chivalry"],
+				"prerequisites": [],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
