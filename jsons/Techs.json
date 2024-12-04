@@ -176,9 +176,36 @@
 		"wonderCost": 300,
 		"techs": [
 			{
+				"name": "Navigation",
+				"row": 1,
+				"prerequisites": ["Education"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			},
+			{
+				"name": "Astronomy",
+				"row": 3,
+				"uniques": ["[+1] Movement <for [Embarked] units>","[+50]% weight to this choice for AI decisions"],
+				"prerequisites": ["Urbanisation","Education"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			},
+			{
+				"name": "Banking",
+				"row": 5,
+				"prerequisites": ["Urbanisation","Metallurgy"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			},
+			{
+				"name": "Machinery",
+				"row": 6,
+				"prerequisites": ["Metallurgy"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
+			{
 				"name": "Engineering",
 				"row": 8,
-				"prerequisites": ["Construction"],
+				"prerequisites": ["Gunpowder","Metallurgy"],
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
@@ -191,13 +218,6 @@
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
-			{
-				"name": "Machinery",
-				"row": 8,
-				"prerequisites": ["Guilds","Engineering"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
-			},
 		]
 	},
 	{
@@ -207,20 +227,6 @@
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
-			{
-				"name": "Astronomy",
-				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","[+50]% weight to this choice for AI decisions"],
-				"prerequisites": ["Compass","Education"],
-				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
-			},
-			{
-				"name": "Banking",
-				"row": 6,
-				"prerequisites": ["Education"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
-			},
 		]
 	},
 	{
@@ -231,25 +237,12 @@
 		"wonderCost": 625,
 		"techs": [
 			{
-				"name": "Navigation",
-				"row": 2,
-				"prerequisites": ["Astronomy"],
-				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
-			},
-			{
 				"name": "Economics",
 				"row": 6,
 				"prerequisites": ["Banking"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
-			{
-				"name": "Chemistry",
-				"row": 10,
-				"prerequisites": ["Gunpowder"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
-			}
 		]
 	},
 	{
@@ -290,13 +283,13 @@
 			{
 				"name": "Military Science",
 				"row": 9,
-				"prerequisites": ["Metallurgy","Chemistry"],
+				"prerequisites": ["Metallurgy"],
 				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
 			},
 			{
 				"name": "Fertilizer",
 				"row": 10,
-				"prerequisites": ["Chemistry"],
+				"prerequisites": [],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
