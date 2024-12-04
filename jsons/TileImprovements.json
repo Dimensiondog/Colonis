@@ -251,6 +251,16 @@
 		"shortcutKey": "M"
 	},
 	{
+		"name": "Feitora",
+		"uniqueTo": "Iberia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built on [Coastal] tiles", "Can be built outside your borders", "Can only be built to improve a resource", "Improves [All] resource in this tile","Pillaging this improvement yields approximately [+10 Gold]"],
+		"techRequired": "Construction",
+		"shortcutKey": "M"
+	},
+	{
 		"name": "Terrace farm",
 		"uniqueTo": "Inca",
 		"terrainsCanBeBuiltOn": ["Hill"],
