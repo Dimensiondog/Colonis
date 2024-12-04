@@ -135,7 +135,7 @@
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
-		"techRequired": "Construction",
+		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
@@ -143,7 +143,7 @@
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
-		"techRequired": "Bronze Working",
+		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
@@ -157,7 +157,7 @@
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"techRequired": "Masonry",
+		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
