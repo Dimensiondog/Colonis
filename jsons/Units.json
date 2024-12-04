@@ -158,9 +158,9 @@
 		"strength": 17,
 		"rangedStrength": 21,
 		"cost": 120,
-		"requiredTech": "Chivalry",
+		"requiredTech": "Heavy Cavalry",
 		"requiredResource": "Horses",
-		"upgradesTo": "Heavy Cavalry",
+		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "arrow"
