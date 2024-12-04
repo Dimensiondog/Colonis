@@ -28,8 +28,8 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pax Saxlandia",
-		"uniques": ["Can carry [1] extra [All] units","Provides [1] [number of cities]<for every [Cities]>"],
-		"uniqueText": "Can carry [1] extra [All] units, May build an additional Governors House for every 4 cities",
+		"uniques": ["Can carry [1] extra [All] units"],
+		"uniqueText": "Can carry [1] extra [All] units, May build additional Governors Houses",
 		"cities": ["Armidale","Tamworth","Moree","Glenn Innes","Inverell"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
