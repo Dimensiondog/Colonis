@@ -227,6 +227,34 @@
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
+			{
+				"name": "Archaeology",
+				"row": 2,
+				"prerequisites": ["Navigation","Astronomy"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+			},
+			{
+				"name": "Economics",
+				"row": 6,
+				"prerequisites": ["Banking"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+			{
+				"name": "Rifling",
+				"row": 7,
+				"prerequisites": ["Economics","Metallurgy"],
+                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+			},
+			{
+				"name": "Railroads",
+				"row": 8,
+				"prerequisites": ["Steam Power","Dynamite"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			}
 		]
 	},
 	{
@@ -236,13 +264,6 @@
 		"buildingCost": 250,
 		"wonderCost": 625,
 		"techs": [
-			{
-				"name": "Economics",
-				"row": 6,
-				"prerequisites": ["Banking"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
-			},
 		]
 	},
 	{
@@ -252,13 +273,6 @@
 		"buildingCost": 300,
 		"wonderCost": 750,
 		"techs": [
-			{
-				"name": "Archaeology",
-				"row": 2,
-				"prerequisites": ["Navigation"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
-			},
 			{
 				"name": "Scientific Theory",
 				"row": 4,
@@ -272,13 +286,6 @@
 				"prerequisites": ["Economics"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
-			},
-			{
-				"name": "Rifling",
-				"row": 7,
-				"prerequisites": ["Economics","Metallurgy"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
 				"name": "Military Science",
@@ -302,13 +309,7 @@
 		"buildingCost": 360,
 		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
-			{
-				"name": "Biology",
-				"row": 2,
-				"prerequisites": ["Archaeology","Scientific Theory"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
-			},
+
 			{
 				"name": "Electricity",
 				"row": 3,
@@ -323,12 +324,6 @@
 				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
-			{
-				"name": "Dynamite",
-				"row": 9,
-				"prerequisites": ["Fertilizer","Military Science"],
-				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
-			}
 		]
 	},
 	{
@@ -365,13 +360,6 @@
 				"prerequisites": ["Steam Power"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
-			{
-				"name": "Railroads",
-				"row": 8,
-				"prerequisites": ["Steam Power","Dynamite"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
-			}
 		]
 	},
 	{
