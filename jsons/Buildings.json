@@ -17,6 +17,7 @@
 		"name": "Govenor's house",
 		"replaces": "Palace",
 		"uniqueTo": "Saxland",
+		"cost": 100,
 		"production": 5,
 		"science": 3,
 		"gold": 3,
@@ -123,7 +124,7 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Theology"
+		"requiredTech": "Urbanisation"
 	},
 	{
 		"name": "National Treasury",
@@ -206,7 +207,7 @@
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredTech": "Acoustics",
+		"requiredTech": "Urbanisation",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -224,14 +225,14 @@
         "maintenance": 1,
         "hurryCostModifier": 10,
         "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
-        "requiredTech": "Banking"
+        "requiredTech": "Urbanisation"
     },
 	{
 		"name": "Theatre",
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredTech": "Printing Press"
+		"requiredTech": "Urbanisation"
 	},
 	{
 		"name": "Seaport",
