@@ -8,7 +8,63 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Brute",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Medieval era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Brute",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Exploration era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Musketman",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Industrial era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Brute",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Modern era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Brute",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
