@@ -406,31 +406,6 @@
 	},
 	// Column 14
 	{
-		"name": "Solar Farm",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredTech": "Ecology",
-		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
-	},
-	{
-		"name": "Recycling Center",
-		"maintenance": 3,
-		"requiredTech": "Ecology",
-		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
-	},
-	{
-		"name": "Nuclear Power Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredResource": "Uranium",
-		"requiredTech": "Nuclear Fission",
-		"uniques": ["Only available <in cities without a [Solar Plant]>"]
-	},
-	{
 		"name": "Astral Program",
 		"cost": 750,
 		"isNationalWonder": true,
