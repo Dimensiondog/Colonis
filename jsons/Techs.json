@@ -235,6 +235,13 @@
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
+				"name": "Biology",
+				"row": 4,
+				"prerequisites": ["Astronomy","Banking"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+			},
+			{
 				"name": "Economics",
 				"row": 6,
 				"prerequisites": ["Banking","Machinery"],
