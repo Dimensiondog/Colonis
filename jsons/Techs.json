@@ -282,7 +282,7 @@
 		"techs": [
 			{
 				"name": "Scientific Theory",
-				"row": 4,
+				"row": 1,
 				"prerequisites": ["Biology","Archaeology"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
@@ -296,21 +296,21 @@
 			},
 			{
 				"name": "Industrialization",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Economics","Rifling"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
 				"name": "Steam Power",
-				"row": 6,
+				"row": 7,
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"prerequisites": ["Railroads","Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
 				"name": "Fertilizer",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Railroads"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
