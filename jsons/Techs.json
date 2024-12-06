@@ -237,21 +237,21 @@
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Banking"],
+				"prerequisites": ["Banking","Machinery"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
 				"name": "Rifling",
 				"row": 7,
-				"prerequisites": ["Economics","Metallurgy"],
+				"prerequisites": ["Machinery","Engineering"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
 				"name": "Railroads",
 				"row": 8,
-				"prerequisites": ["Steam Power","Dynamite"],
+				"prerequisites": ["Engineering"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
