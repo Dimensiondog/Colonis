@@ -726,6 +726,10 @@
 		"uniques": ["[+10] HP when healing"]
 	},
 	{
+		"name": "Great Plains",
+		"uniques": ["Gain control over [Land] tiles in a [1]-tile radius<once>"]
+	},
+	{
 		"name": "[Conquistador] ability",
 		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"]
 	},
