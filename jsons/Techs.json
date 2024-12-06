@@ -217,17 +217,7 @@
 		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
-		"techs": [
-		]
-	},
-	{
-		"columnNumber": 7,
-		"era": "Ancient era",
-		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
-		"techs": [
-			{
+		"techs": [			{
 				"name": "Archaeology",
 				"row": 2,
 				"prerequisites": ["Navigation","Astronomy"],
@@ -265,20 +255,11 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 7,
 		"era": "Ancient era",
-		"techCost": 1150,
-		"buildingCost": 250,
-		"wonderCost": 625,
-		"techs": [
-		]
-	},
-	{
-		"columnNumber": 9,
-		"era": "Ancient era",
-		"techCost": 1600,
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Scientific Theory",
@@ -318,25 +299,16 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 8,
 		"era": "Ancient era",
-		"techCost": 2350,
-		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
-		"techs": [
-		]
-	},
-	{
-		"columnNumber": 11,
-		"era": "Ancient era",
-		"techCost": 3100,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
 		"techs": [
 			{
 				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"prerequisites": ["Biology", "Electricity","Scientific Theory"], //todo: offshore platform should need this
                 "uniques": ["[-75]% weight to this choice for AI decisions"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
@@ -357,24 +329,37 @@
 			{
 				"name": "Flight",
 				"row": 6,
-				"prerequisites": ["Steam Power"],
+				"prerequisites": ["Steam Power","Fertilizer"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 9,
 		"era": "Ancient era",
-		"techCost": 4100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
 		"techs": [
+			{
+				"name": "Pharmaceuticals",
+				"row": 2,
+				"prerequisites": ["Refrigeration"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			},
 			{
 				"name": "Plastics",
 				"row": 3,
 				"prerequisites": ["Radio","Replaceable Parts"],
                 "uniques": ["[+200]% weight to this choice for AI decisions"],
 				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+			},
+			{
+				"name": "Atomic Theory",
+				"row": 4,
+				"prerequisites": ["Replaceable Parts"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
 				"name": "Electronics",
@@ -389,57 +374,18 @@
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
-				"name": "Combustion",
-				"row": 8,
-				"prerequisites": ["Railroads"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
-			}
-		]
-	},
-	{
-		"columnNumber": 13,
-		"era": "Ancient era",
-		"techCost": 5100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
-		"techs": [
-			{
-				"name": "Pharmaceuticals",
-				"row": 2,
-				"prerequisites": ["Plastics","Refrigeration"],
-				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
-			},
-			{
-				"name": "Atomic Theory",
-				"row": 4,
-				"prerequisites": ["Plastics","Electronics"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
-			},
-		]
-	},
-	{
-		"columnNumber": 14,
-		"era": "Ancient era",
-		"techCost": 6400,
-		"buildingCost": 500,
-		"wonderCost": 1250,
-		"techs": [
-		]
-	},
-	{
-		"columnNumber": 15,
-		"era": "Ancient era",
-		"techCost": 7700,
-		"buildingCost": 750,
-		"wonderCost": 1250,
-		"techs": [
-			{
 				"name": "Globalization",
-				"row": 2,
+				"row": 7,
+				"prerequisites": ["Flight"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+			},
+			{
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Railroads","Flight"],
+                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			},
 		]
 	},
