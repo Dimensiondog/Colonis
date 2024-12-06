@@ -161,7 +161,7 @@
 		"requiredTech": "Heavy Cavalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "arrow"
 		//Camel Archer should have no penalty attacking cities
@@ -175,7 +175,7 @@
 		"requiredTech": "Heavy Cavalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
@@ -189,7 +189,7 @@
 		"strength": 25,
 		"cost": 120,
 		"requiredTech": "Heavy Cavalry",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Rifling",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "elephant"
@@ -203,7 +203,7 @@
 		"requiredTech": "Heavy Cavalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
 	},
@@ -218,7 +218,7 @@
 		"requiredTech": "Heavy Cavalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
@@ -359,7 +359,7 @@
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability","Formation I"],
 		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Rifling",
 		"attackSound": "horse"
 	},
 	{
@@ -559,7 +559,6 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Ballistics",
-		"obsoleteTech": "Rocketry",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
