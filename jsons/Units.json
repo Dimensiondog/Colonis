@@ -33,6 +33,7 @@
 	{
 		"name": "Jaguar",
 		"unitType": "Sword",
+		"uniqueTo": "Aztecs",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -53,6 +54,7 @@
 	},
 	{
 		"name": "Atlatlist",
+		"uniqueTo": "The Maya",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
@@ -84,6 +86,7 @@
 	},
 	{
 		"name": "Horse Archer",
+		"uniqueTo": "Shioux",
 		"unitType": "Archery",
 		"movement": 4,
 		"strength": 7,
@@ -98,6 +101,7 @@
 	},
 	{
 		"name": "War Elephant",
+		"uniqueTo": "Manhuls",
 		"unitType": "Archery",
 		"movement": 3,
 		"strength": 9,
@@ -122,22 +126,9 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "African Forest Elephant",
-		"unitType": "Mounted",
-		"movement": 3,
-		"strength": 14,
-		"cost": 100,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Heavy Cavalry",
-		"promotions": ["Great Generals II"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"hurryCostModifier": 20,
-		"attackSound": "elephant"
-	},
-	{
 		"name": "Mohawk Warrior",
+		"replaces": "Spearman",
+		"uniqueTo": "Hausaudeneuos",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
@@ -154,6 +145,8 @@
 	{
 		"name": "Camel Archer",
 		"unitType": "Archery",
+		"replaces": "Conquistador",
+		"uniqueTo": "Harunia",
 		"movement": 4,
 		"strength": 17,
 		"rangedStrength": 21,
@@ -185,6 +178,8 @@
 	{
 		"name": "Naresuan's Elephant",
 		"unitType": "Mounted",
+		"replaces": "Conquistador",
+		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 25,
 		"cost": 120,
@@ -197,6 +192,8 @@
 	{
 		"name": "Mandekalu Cavalry",
 		"unitType": "Mounted",
+		"replaces": "Conquistador",
+		"uniqueTo": "Songhai",
 		"movement": 4,
 		"strength": 20,
 		"cost": 110,
@@ -206,23 +203,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
-	},
-	{
-		"name": "Keshik",
-		"unitType": "Archery",
-		"range": 2,
-		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
-		"cost": 120,
-		"requiredTech": "Heavy Cavalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Rifling",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Great Generals I", "Quick Study"],
-		"attackSound": "arrow"
-		// Keshik should have no penalty attacking cities
 	},
 	{
 		"name": "Caravel",
@@ -252,23 +232,13 @@
 		"name": "Musketeer",
 		"unitType": "Gunpowder",
 		"movement": 2,
+		"replaces": "Musketman",
+		"uniqueTo": "Napoleonia",
 		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Janissary",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"promotions": ["[Janissary] ability"],
 		"attackSound": "shot"
 	},
 	{
@@ -337,6 +307,8 @@
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 30,
+		"replaces": "Frigate",
+		"uniqueTo": "Saxland",
 		"rangedStrength": 35,
 		"cost": 185,
 		"requiredResource": "Iron",
