@@ -14,24 +14,13 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
-		"name": "Monument",
+		"name": "Town Hall",
 		"culture": 2,
+		"production": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Stele",
-        "replaces": "Monument",
-		"uniqueTo": "Ethiopia",
-		"culture": 2,
-		"faith": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
-	},
+	}
 	// Column 1
 	{
 		"name": "Granary",
@@ -97,7 +86,6 @@
 	},
 	{
 		"name": "Bazaar",
-		"replaces": "Market",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -180,24 +168,12 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Castle",
-		"cityStrength": 7,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"requiredTech": "Chivalry",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
 		"name": "Mughal Fort",
 		"cost": 150,
-		"replaces": "Castle",
-		"uniqueTo": "India",
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
 		"uniques": ["[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
@@ -272,7 +248,6 @@
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
 	{
@@ -325,7 +300,6 @@
 	},
 	{
 		"name": "Coffee House",
-		"replaces": "Windmill",
 		"production": 2,
 		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 1},
@@ -390,7 +364,6 @@
 	{
 		"name": "Hospital",
 		"food": 5,
-		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology"
