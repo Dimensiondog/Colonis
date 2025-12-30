@@ -4,10 +4,6 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 5
         },
         "uniques": [
             "[+3 Culture] [in capital]",
@@ -75,10 +71,6 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
         },
         "uniques": ["[+1 Culture] [in all cities]"],
         "policies": [
@@ -146,10 +138,6 @@
         "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 5
         },
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
@@ -219,10 +207,6 @@
         "era": "Classical era",
         "priorities": {
             "Neutral": 0,
-            "Cultural": 0,
-            "Diplomatic": 0,
-            "Domination": 0,
-            "Scientific": 0
         },
         "uniques": [
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
@@ -285,10 +269,6 @@
         "era": "Medieval era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 10,
-            "Domination": 5,
-            "Scientific": 5
         },
         "uniques": [
             "[-25]% City-State Influence degradation",
@@ -354,10 +334,6 @@
         "era": "Medieval era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 5
         },
         "uniques": ["[+25]% [Gold] [in capital]"],
         "policies": [
@@ -425,10 +401,6 @@
         "era": "Renaissance era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
         },
         "uniques": [
             "[+15]% [Science] <while the empire is happy>",
@@ -493,10 +465,6 @@
         "era": "Industrial era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 10,
-            "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 10
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
@@ -556,10 +524,6 @@
         "era": "Industrial era",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 10,
-            "Scientific": 5
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
@@ -626,10 +590,6 @@
         "era": "Industrial era",
         "priorities": {
             "Neutral": 10,
-            "Cultural": 5,
-            "Diplomatic": 10,
-            "Domination": 5,
-            "Scientific": 5
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
