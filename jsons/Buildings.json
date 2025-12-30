@@ -313,7 +313,6 @@
 		"name": "Museum",
 		"culture": 5,
 		"specialistSlots": {"Artist": 2},
-		"requiredBuilding": "Opera House",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
