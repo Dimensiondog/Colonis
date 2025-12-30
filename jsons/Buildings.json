@@ -208,16 +208,6 @@
 		"requiredTech": "Astronomy"
 	},
 	{
-		"name": "Opera House",
-		"culture": 4,
-		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 10,
-		"requiredBuilding": "Amphitheater",
-		"maintenance": 2,
-		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
 		"name": "Bank",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
@@ -314,7 +304,6 @@
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured"]
 	},
